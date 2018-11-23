@@ -33,7 +33,8 @@ const SOUND_COLOR = '#ED146F';
 let audioContext = new AudioContext();
 let sampleCache = {};
 
-let canvas = document.getElementById('music-for-airports');
+function airport(canvasName) {
+let canvas = document.getElementById(canvasName);
 let context = canvas.getContext('2d');
 
 // Control variable, set to start time when playing begins
@@ -151,7 +152,7 @@ function startLoop({instrument, note, duration, delay}, nextNode) {
   );
 }
 
-fetchSample('Samples/AirportTerminal.wav').then(convolverBuffer => {
+fetchSample('Samples/balance-mastering-teufelsberg-IR-03-44100-24bit.wav').then(convolverBuffer => {
 
   let convolver, runningLoops;
 
@@ -172,3 +173,7 @@ fetchSample('Samples/AirportTerminal.wav').then(convolverBuffer => {
 
   render();
 });
+}
+
+airport('music-for-airports');
+airport('music-for-airports-oblique');
