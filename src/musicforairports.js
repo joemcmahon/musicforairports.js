@@ -29,8 +29,8 @@ const LOOPS = [
   {instrument: 'Grand Piano', note: 'Ab4', duration: 17.8, delay: 8.1},
   {instrument: 'Grand Piano', note: 'C5',  duration: 21.3, delay: 5.6},
   {instrument: 'Grand Piano', note: 'Db5', duration: 18.5, delay: 12.6},
-  {instrument: 'Grand Piano', note: 'Eb5', duration: 20.0, delay: 9.2},
-  {instrument: 'Grand Piano', note: 'F5',  duration: 20.0, delay: 14.1},
+  {instrument: 'Grand Piano', note: 'Eb5', duration: 20.1, delay: 9.2},
+  {instrument: 'Grand Piano', note: 'F5',  duration: 20.2, delay: 14.1},
   {instrument: 'Grand Piano', note: 'Ab5', duration: 17.7, delay: 3.1},
   {instrument: 'Grand Piano', note: 'Bb5', duration: 22.7, delay: 9.1}
 ];
