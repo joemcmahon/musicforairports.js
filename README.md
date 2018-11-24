@@ -13,7 +13,7 @@ features to get the result I was looking for.
 
 See live demos [here]().
 
-![Screenshot](/dist/screenshot.png?raw=true)
+![Screenshot](dist/screenshot.png?raw=true)
 
 Uses instrument samples from the [Sonatina Symphonic Orchestra](http://sso.mattiaswestlund.net/download.html). You can get more of them by downloading the ZIP from their site.
 
@@ -46,6 +46,7 @@ If you want to embed the player on an existing website, take a look at `index.ht
 ISC License
 
 Original copyright (c) 2016, Tero Parviainen
+
 This version copyright (c) 2018, Joe McMahon
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
