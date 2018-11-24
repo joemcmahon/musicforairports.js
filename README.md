@@ -3,19 +3,19 @@
 A JavaScript edition of [Ambient 1: Music for Airports 2/1](https://en.wikipedia.org/wiki/Ambient_1:_Music_for_Airports)
 by Brian Eno, as built in the [JavaScript Systems Music](http://teropa.info/blog/2016/07/28/javascript-systems-music.html) guide.
 
-See live demos [here](http://teropa.info/blog/2016/07/28/javascript-systems-music.html#putting-it-together-launching-the-loops) and [here](http://teropa.info/blog/2016/07/28/javascript-systems-music.html#exploring-variations-on-music-for-airports).
+This is a new composition, using the base code from Tero's original, and adding some
+features to get the result I was looking for.
+
+ - The canvas automatically scales itself to hold the number of loops being played.
+ - The sound markers are assigned colors along the HSV spectrum to make the display a little more appealing for large numbers of tracks.
+ - I deliberately chose two tracks that are the same length with an offset that produces a (very slow) meter and chord progression.
+ - I used one of the [Teufelsberg impulse responses](http://www.balancemastering.com/blog/free-teufelsberg-nsa-listening-tower-impulse-responses-ir-irs-convolution/) from Balance Mastering, tweaked to double the length in Audacity via Paulstretch (2x, window of .001 sec).
+
+See live demos [here]().
 
 ![Screenshot](/dist/screenshot.png?raw=true)
 
 Uses instrument samples from the [Sonatina Symphonic Orchestra](http://sso.mattiaswestlund.net/download.html). You can get more of them by downloading the ZIP from their site.
-
-Also uses an impulse response sample from [AirWindows](http://www.airwindows.com/airwindows-impulses/).
-
-This project setup differs from the one in the article in the following:
-
-1. The canvas visualization is included as well, not just the music.
-2. Sample buffers are cached in memory instead of fetching them anew each time.
-3. Babel is used for ES2015 to ES5 compilation instead of running ES2015 natively in the browser.
 
 ## Development
 
@@ -45,7 +45,8 @@ If you want to embed the player on an existing website, take a look at `index.ht
 
 ISC License
 
-Copyright (c) 2016, Tero Parviainen
+Original copyright (c) 2016, Tero Parviainen
+This version copyright (c) 2018, Joe McMahon
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
