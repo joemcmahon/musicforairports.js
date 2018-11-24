@@ -11,7 +11,7 @@ features to get the result I was looking for.
  - I deliberately chose two tracks that are the same length with an offset that produces a (very slow) meter and chord progression.
  - I used one of the [Teufelsberg impulse responses](http://www.balancemastering.com/blog/free-teufelsberg-nsa-listening-tower-impulse-responses-ir-irs-convolution/) from Balance Mastering, tweaked to double the length in Audacity via Paulstretch (2x, window of .001 sec).
 
-See live demos [here]().
+See a live demos [here](https://joemcmahon.github.io). You may need to reload to get the graphics synced with the  music (the initial run downloads the samples; this extra time may throw the synchronization off.
 
 ![Screenshot](dist/screenshot.png?raw=true)
 
